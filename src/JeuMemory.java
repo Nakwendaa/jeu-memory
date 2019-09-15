@@ -234,8 +234,8 @@ public class JeuMemory {
 	
 	public static void main(String[] args) {
 		if (!verifieArguments(args)) {
-			System.out.println("Utilisation: java JeuMemory nRangees nColonnes delaiAffichageInitial(ms) delaiAffichageMauvaisePaire(ms) numeroDeTheme");
-			System.out.println("Ex: java JeuMemory 5 6 5000 1000 3\n");
+			System.out.println("Utilisation: nRangees nColonnes delaiAffichageInitial(ms) delaiAffichageMauvaisePaire(ms) numeroDeTheme");
+			System.out.println("Ex: 5 6 5000 1000 3\n");
 			System.out.println("Voici la liste des themes disponibles");
 			System.out.println("0: Couleurs");
 			System.out.println("1: Noms de personnages Star Wars");
